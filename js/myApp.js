@@ -4,5 +4,6 @@ $(document).ready(function(){
     // load menu
     $('header').load('menu.html', function() {
         console.log('After Menu');
+        console.log('changed');
     });
     });
